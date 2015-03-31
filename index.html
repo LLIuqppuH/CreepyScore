@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="keywords" content="league of legends, current game, creepyscore, feeders, elohell, download, reddit, server status, worlds, patch notes, pbe, forums, champions, api, account for sale, builds, best champions, beginner guide, boosting, champions, dragon, cosplay, elo checker, euw, free skins, how to jungle, ip boost, item builder, match history, ladder, launcher won't open, player stats, ranks, rp, ranking system, season 5, tribunal, tier list, urf, win rates, yordles, 420 blaze it, bronze 5, bronze V">
+<title>CreepyScore - current game players' stats</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="img/favicon.png">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="masteries.css" />
+<link rel="stylesheet" href="css/style150328.css" />
+<link rel="stylesheet" href="css/animations.css" />
+<link rel="stylesheet" href="qtip/jquery.qtip.min.css" />
+</head>
+
+<body>
+<i class="fa fa-users faloader"></i>
+	
+<section id="searchPage">
+	<section id="searchBox">		
+		<form>
+			<p>CHECK TEAMS OF THE ONGOING MATCH</p>
+			<input type="search" id="name-search" name="name" placeholder="Enter a player currently in an active match" value="">
+			<section class="regions">
+					<input type="radio" name="region" id="NA" value="NA">
+					<label for="NA" title="North America">NA</label>
+				
+					<input type="radio" name="region" id="EUW" value="EUW" checked="checked">
+					<label for="EUW" title="Europe West">EUW</label>
+				
+					<input type="radio" name="region" id="EUNE" value="EUNE">
+					<label for="EUNE" title="Europe Nordic &amp; East">EUNE</label>
+					
+					<input type="radio" name="region"  id="RU" value="RU">
+					<label for="RU" title="Russia">RU</label>
+				
+					<input type="radio" name="region" id="BR" value="BR">
+					<label for="BR" title="Brazil">BR</label>
+				
+					<input type="radio" name="region" id="TR" value="TR">
+					<label for="TR" title="Turkey">TR</label>				
+							
+					<input type="radio" name="region" id="LAN" value="LAN">
+					<label for="LAN" title="Latin America North">LAN</label>
+				
+					<input type="radio" name="region" id="LAS" value="LAS">
+					<label for="LAS" title="Latin America South">LAS</label>
+				
+					<input type="radio" name="region" id="OCE" value="OCE">
+					<label for="OCE" title="Oceania">OCE</label>				
+			</section>
+			<input id="submitButton" type="submit" value="OKAY">
+		</form>		
+	</section>
+</section>
+
+<div id="scr"></div>
+
+<div class="logo"><img src="img/logo.png" alt="Logo" />
+  <div id="map-canvas-home"></div>  
+</div>
+
+<div id="contact" class="section">
+  <div class="section-title"><i class="fa fa-users"></i><strong>Current game</strong>
+  </div>
+<div class="container">
+<section id="gamePage">
+	<section id="gameCards">
+		<h1 id="nameserver"></h1>
+	</section>
+</section>
+  </div>
+</div>
+<div id="otvet"></div>
+
+<a class="section-close">x</a> 
+<footer>&copy;2015 Alex Danilov / creepyscore com &#64;euw</footer>
+
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/functions.js"></script>
+<script src="qtip/jquery.qtip.min.js"></script>
+<script src="js/core.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter28636321 = new Ya.Metrika({id:28636321,
+                    webvisor:true,
+                    clickmap:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/28636321" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60892641-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
